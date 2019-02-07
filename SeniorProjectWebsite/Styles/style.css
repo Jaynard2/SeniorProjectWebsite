@@ -1,0 +1,71 @@
+﻿body, html {
+    height: 100%;
+}
+
+nav {
+    background-color: darkred;
+}
+
+.nav {
+    background-color: darkred;
+    min-width: 250px;
+    left: 0;
+    position: absolute;
+}
+
+.nav .nav-item .nav {
+    position: relative;
+}
+
+.nav .nav-item a {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: gold;
+}
+
+.dropdown-menu {
+    background-color: darkred;
+}
+
+.nav .active {
+    background-color: rgb(212,175,55);
+}
+
+.nav .active:hover {
+    background-color: gold;
+}
+
+.dropdown-item:hover {
+    background-color: gold;
+}
+
+.menu {
+    min-width: 130px;
+}
+
+.nav-link[data-toggle].collapsed:after {
+    content: "▾";
+}
+
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: "▴";
+}
+
+div.content {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    z-index: -1;
+    width: 100vw;
+}
+
+#cover {
+    width: 100%;
+    height: 90vh;
+}
+
+#canvas-cover {
+    height: 100%;
+}
