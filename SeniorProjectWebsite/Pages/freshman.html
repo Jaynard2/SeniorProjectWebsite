@@ -1,10 +1,468 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css" />
+
+    <title>Freshman</title>
 </head>
 <body>
-    <h1>Freshman</h1>
+    <span id="top"></span>
+    <nav class="navbar navbar-dark">
+        <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img id="navbar-icon" src="../img/BullittEastLogo.png" />&ensp;Joshua's Senior Project</a>
+        <span class="ml-auto"></span>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 collapse" id="menu">
+                <!--Navbar menu-->
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item">
+                        <div class="button-group nav-link active">
+                            <a href="freshman.html">
+                                Freshmen
+                            </a>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="collapse" data-target="#freshman"></button>
+                        </div>
+                        <div class="collapse" id="freshman">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="freshman.html#class1">&emsp;Honors Geometry</a>
+                                    <a class="nav-link" href="freshman.html#class2">&emsp;AP Human Geography</a>
+                                    <a class="nav-link" href="freshman.html#class3">&emsp;Honors English 1</a>
+                                    <a class="nav-link" href="freshman.html#class4">&emsp;Intro to Engineering</a>
+                                    <a class="nav-link" href="freshman.html#class5">&emsp;Biology</a>
+                                    <a class="nav-link" href="freshman.html#class6">&emsp;PE / Health and Safety</a>
+                                    <a class="nav-link" href="freshman.html#class7">&emsp;Concert Band</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="button-group nav-link">
+                            <a href="sophomore.html">
+                                Sophomore
+                            </a>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="collapse" data-target="#sophomore"></button>
+                        </div>
+                        <div class="collapse" id="sophomore">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sophomore.html#class1">&emsp;Honors Algebra 2</a>
+                                    <a class="nav-link" href="sophomore.html#class2">&emsp;Honors English 2</a>
+                                    <a class="nav-link" href="sophomore.html#class3">&emsp;Ap Physics</a>
+                                    <a class="nav-link" href="sophomore.html#class4">&emsp;Principles of Engineering</a>
+                                    <a class="nav-link" href="sophomore.html#class5">&emsp;AP World History</a>
+                                    <a class="nav-link" href="sophomore.html#class6">&emsp;Wind Ensemble</a>
+                                    <a class="nav-link" href="sophomore.html#class7">&emsp;Honors Chemistry</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link button-group">
+                            <a href="junior.html">
+                                Junior
+                            </a>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="collapse" data-target="#junior"></button>
+                        </div>
+                        <div class="collapse" id="junior">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="junior.html#class1">&emsp;German 1</a>
+                                    <a class="nav-link" href="junior.html#class2">&emsp;US History</a>
+                                    <a class="nav-link" href="junior.html#class3">&emsp;AP English 3</a>
+                                    <a class="nav-link" href="junior.html#class4">&emsp;PreCalculas</a>
+                                    <a class="nav-link" href="junior.html#class5">&emsp;AP Statistics</a>
+                                    <a class="nav-link" href="junior.html#class6">&emsp;Wind Ensemble</a>
+                                    <a class="nav-link" href="junior.html#class7">&emsp;Digital Electronics</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="button-group nav-link">
+                            <a href="senior.html">
+                                Senior
+                            </a>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="collapse" data-target="#senior"></button>
+                        </div>
+                        <div class="collapse" id="senior">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="senior.html#class1">&emsp;Intro to Programming</a>
+                                    <a class="nav-link" href="senior.html#class2">&emsp;AP European History</a>
+                                    <a class="nav-link" href="senior.html#class3">&emsp;AP Calculas</a>
+                                    <a class="nav-link" href="senior.html#class4">&emsp;AP English 4</a>
+                                    <a class="nav-link" href="senior.html#class5">&emsp;Wind Ensemble</a>
+                                    <a class="nav-link" href="senior.html#class6">&emsp;Student Services</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chargerWay.html">Joshua's Charger Way</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="otherLinks.html">Other Links</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid content">
+            <div class="row">
+                <div class="card text-center col-12 cover">
+                    <div class="cover-half" id="left"></div>
+                    <h1 class="card-title text-white">
+                        <img class="page-img" id="left-img" src="../img/BullittEastLogo.png" />
+                        &ensp;Freshman&ensp;
+                        <img class="page-img" id="right-img" src="../img/BullittEastLogo.png" /><br />
+                        <small>2015-2016</small>
+                    </h1>
+                    <div class="cover-half" id="right"></div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12"></span>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2 class="card-title">Literacy Growth Reflection</h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    As a freshman, it appears that I often used puctuation in strange, if not
+                                    completey incorrect, ways. It also appears that I rarely proof-read what I
+                                    wrote, as their are numerous typos. My tone on the trumpet was also rather
+                                    poor; to think I thought myself amazing!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h2 class="card-title">Personal Growth Reflection</h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Filler.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">Schedule</h2>
+                                <table class="table text-center table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Period</th>
+                                            <th colspan="2">Class</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>1</th>
+                                            <td colspan="2">
+                                                <a href="#class1">Honors Geometry</a><br />
+                                                <small>Richardson</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>2</th>
+                                            <td colspan="2">
+                                                <a href="#class2">AP Human Geography</a><br />
+                                                <small>Whitfill</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>3</th>
+                                            <td colspan="2">
+                                                <a href="#class3">Honors English I</a><br />
+                                                <small>Willis</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>4</th>
+                                            <td colspan="2">
+                                                <a href="#class4">Intro to Engineering</a><br />
+                                                <small>Vincent</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>5</th>
+                                            <td colspan="2">
+                                                <a href="#class5">Biology</a><br />
+                                                <small>Hughes</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>6</th>
+                                            <td>
+                                                <a href="#class6">Physical Education</a><br />
+                                                <small>Craddock</small>
+                                            </td>
+                                            <td>
+                                                <a href="#class6">Health and Safety</a><br />
+                                                <small>Hare</small>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>7</th>
+                                            <td colspan="2">
+                                                <a href="#class7">Concert Band</a><br />
+                                                <small>Ervin</small>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12"></span>
+
+            <div class="row d-flex mx-0">
+                <div class="flex-grow-1">
+                    <div class="card cert-ref">
+                        <div class="card-header">
+                            <h2 class="card-title">CERT Reflection</h2>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                CERT Scores Unavailable
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">CERT Scores</h2>
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Section</th>
+                                        <th scope="col">Fall</th>
+                                        <th scope="col">Winter</th>
+                                        <th scope="col">Spring</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">English</th>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Math</th>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Reading</th>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Science</th>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Composite</th>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                        <td>n/a</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12" id="class1"></span>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">
+                                Honors Geometry<br />
+                                <small>Richardson</small>
+                            </h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <img class="col-6 geo-img" src="../img/HonorsGeo1.jpg" />
+                                <img class="col-6 geo-img" src="../img/HonorsGeo2.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12" id="class2"></span>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">
+                                AP Human Geography<br />
+                                <small>Whitfill</small>
+                            </h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <img class="col-12 ap-hum-geo" src="../img/APHumanGeo.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12" id="class3"></span>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">
+                                Honors English I<br />
+                                <small>Willis</small>
+                            </h2>
+                        </div>
+                        <div class="card-body">
+                            <iframe class="iframe-doc" src="https://docs.google.com/document/d/e/2PACX-1vSOd2r79yRThp9GaZm78ROvR5yd2skZtyOilq6K2XpQvEpsATDPFSoRcoCUL8VNzDR4S8W0Xsrdicw4/pub?embedded=true"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12" id="class4"></span>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">
+                                Intro to Engineering<br />
+                                <small>Vincent</small>
+                            </h2>
+                        </div>
+                        <div class="card-body">
+                            <iframe class="iframe-doc" src="https://docs.google.com/presentation/d/e/2PACX-1vSITMhkfoBiyUGt0CRDkR65v29hr2o52uvcpuqL-wsIzDcntbdu5fb8reFO7VY2yZ8kcttWpD_9WKVY/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12" id="class5"></span>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">
+                                Biology<br />
+                                <small>Hughes</small>
+                            </h2>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                No available document.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12" id="class6"></span>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2 class="card-title">
+                                    Physical Education<br />
+                                    <small>1<sup>st</sup> Semester&emsp;Craddock</small>
+                                </h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    No availabe document.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h2 class="card-title">
+                                    Health and Safety<br />
+                                    <small>2<sup>nd</sup> Semester&emsp;Hare</small>
+                                </h2>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    No available document.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12" id="class7"></span>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">
+                                Concert Band<br />
+                                <small>Ervin</small>
+                            </h2>
+                        </div>
+                        <div class="card-body">
+                            <iframe class="iframe-doc" src="https://www.youtube-nocookie.com/embed/DjXE_RLdrNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <p class="col-12"><a href="#top">&#x21E7; Back to Top &#x21E7;</a></p>
+            </div>
+
+        </div>
+    </div>
+
+        <!-- My JS -->
+        <script src="../JavaScript/CoverAnimation.js"></script>
+
+        <!--Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>

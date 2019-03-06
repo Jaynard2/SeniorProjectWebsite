@@ -4,6 +4,7 @@
 
 nav {
     background-color: darkred;
+    z-index: 20;
 }
 
 .nav {
@@ -11,6 +12,15 @@ nav {
     min-width: 250px;
     left: 0;
     position: absolute;
+}
+
+#navbar-icon {
+    width: 45px;
+    margin-bottom: 8px;
+}
+
+.nav-item .nav-link {
+    height: 47px;
 }
 
 .nav .nav-item .nav {
@@ -33,6 +43,10 @@ nav {
     background-color: rgb(212,175,55);
 }
 
+div.button-group.nav-link a:hover {
+    text-decoration: none;
+}
+
 .nav .active:hover {
     background-color: gold;
 }
@@ -41,30 +55,28 @@ nav {
     background-color: gold;
 }
 
-.menu {
+#menu {
     min-width: 130px;
+    z-index: 100;
 }
 
-.nav-link[data-toggle].collapsed:after {
-    content: "▾";
-}
-
-.nav-link[data-toggle]:not(.collapsed):after {
-    content: "▴";
+#menu.collapsing {
+    min-width: 130px;
+    z-index: 100;
+    margin-bottom: -100%;
 }
 
 div.content {
-    position: absolute;
-    top: 0;
-    right: 1px;
     z-index: -1;
-    width: 100vw;
 }
 
-#cover {
+.cover {
     width: 100%;
-    height: 90vh;
     background-image: linear-gradient(darkred, black);
+}
+
+.cover#main {
+    height: 90vh;
 }
 
 div.cover-half {
@@ -83,4 +95,71 @@ div.cover-half#right {
     top: 0;
     right: 0;
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, gold 10%, rgba(0, 0, 0, 0) 15%);
+}
+
+#cover-photo {
+    z-index: 10;
+    position: center;
+    height: inherit;
+}
+    
+span.content-padding {
+    margin: 20px;
+}
+
+.page-img {
+    width: 15%;
+}
+
+.card-title {
+    z-index: 5;
+}
+
+#right-img.page-img {
+    transform: scaleX(-1);
+}
+
+.cover h1.card-title small {
+    position: relative;
+    bottom: 30%;
+}
+
+.geo-img {
+    height: 50%;
+}
+
+.ap-hum-geo {
+    height: 50%;
+}
+
+.iframe-doc {
+    height: 95vh;
+    width: 100%;
+}
+
+.docx {
+    width: 100%;
+}
+
+.cert-ref {
+    height: 100%;
+}
+
+.card-iframe {
+    width: 100%;
+    border: none;
+    height: 100%;
+}
+
+pre {
+    background-color: rgb(245, 245, 245);
+    border: solid black 1px;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace
+}
+
+.table-link {
+    text-overflow: ellipsis;
 }

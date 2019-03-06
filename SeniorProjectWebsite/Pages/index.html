@@ -13,12 +13,12 @@
     <title>Senior Project</title>
 </head>
 <body>
-
+    <span id="top"></span>
     <nav class="navbar navbar-dark">
         <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#menu">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Senior Project</a>
+        <a class="navbar-brand" href="index.html"><img id="navbar-icon" src="../img/BullittEastLogo.png" />&ensp;Joshua's Senior Project</a>
         <span class="ml-auto"></span>
     </nav>
 
@@ -29,82 +29,201 @@
                 <ul class="nav flex-column">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item">
-                        <a class="nav-link collapsed" data-toggle="collapse" data-target="#freshmen" href="#">
-                            Freshmen
-                        </a>
-                        <div class="collapse" id="freshmen">
+                        <div class="button-group nav-link">
+                            <a href="freshman.html">
+                                Freshmen
+                            </a>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="collapse" data-target="#freshman"></button>
+                        </div>
+                        <div class="collapse" id="freshman">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link">&emsp;Class 1</a>
-                                    <a class="nav-link">&emsp;Class 2</a>
-                                    <a class="nav-link">&emsp;Class 3</a>
-                                    <a class="nav-link">&emsp;Class 4</a>
-                                    <a class="nav-link">&emsp;Class 5</a>
-                                    <a class="nav-link">&emsp;Class 6</a>
-                                    <a class="nav-link">&emsp;Class 7</a>
+                                    <a class="nav-link" href="freshman.html#class1">&emsp;Honors Geometry</a>
+                                    <a class="nav-link" href="freshman.html#class2">&emsp;AP Human Geography</a>
+                                    <a class="nav-link" href="freshman.html#class3">&emsp;Honors English 1</a>
+                                    <a class="nav-link" href="freshman.html#class4">&emsp;Intro to Engineering</a>
+                                    <a class="nav-link" href="freshman.html#class5">&emsp;Biology</a>
+                                    <a class="nav-link" href="freshman.html#class6">&emsp;PE / Health and Safety</a>
+                                    <a class="nav-link" href="freshman.html#class7">&emsp;Concert Band</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link collapsed" data-toggle="collapse" data-target="#sophomore" href="#">
-                            Sophomore
-                        </a>
+                        <div class="button-group nav-link">
+                            <a href="sophomore.html">
+                                Sophomore
+                            </a>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="collapse" data-target="#sophomore"></button>
+                        </div>
                         <div class="collapse" id="sophomore">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link">&emsp;Class 1</a>
-                                    <a class="nav-link">&emsp;Class 2</a>
-                                    <a class="nav-link">&emsp;Class 3</a>
-                                    <a class="nav-link">&emsp;Class 4</a>
-                                    <a class="nav-link">&emsp;Class 5</a>
-                                    <a class="nav-link">&emsp;Class 6</a>
-                                    <a class="nav-link">&emsp;Class 7</a>
+                                    <a class="nav-link" href="sophomore.html#class1">&emsp;Honors Algebra 2</a>
+                                    <a class="nav-link" href="sophomore.html#class2">&emsp;Honors English 2</a>
+                                    <a class="nav-link" href="sophomore.html#class3">&emsp;Ap Physics</a>
+                                    <a class="nav-link" href="sophomore.html#class4">&emsp;Principles of Engineering</a>
+                                    <a class="nav-link" href="sophomore.html#class5">&emsp;AP World History</a>
+                                    <a class="nav-link" href="sophomore.html#class6">&emsp;Wind Ensemble</a>
+                                    <a class="nav-link" href="sophomore.html#class7">&emsp;Honors Chemistry</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link collapsed" data-toggle="collapse" data-target="#junior" href="#">
-                            Junior
-                        </a>
+                        <div class="nav-link button-group">
+                            <a href="junior.html">
+                                Junior
+                            </a>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="collapse" data-target="#junior"></button>
+                        </div>
                         <div class="collapse" id="junior">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link">&emsp;Class 1</a>
-                                    <a class="nav-link">&emsp;Class 2</a>
-                                    <a class="nav-link">&emsp;Class 3</a>
-                                    <a class="nav-link">&emsp;Class 4</a>
-                                    <a class="nav-link">&emsp;Class 5</a>
-                                    <a class="nav-link">&emsp;Class 6</a>
-                                    <a class="nav-link">&emsp;Class 7</a>
+                                    <a class="nav-link" href="junior.html#class1">&emsp;German 1</a>
+                                    <a class="nav-link" href="junior.html#class2">&emsp;US History</a>
+                                    <a class="nav-link" href="junior.html#class3">&emsp;AP English 3</a>
+                                    <a class="nav-link" href="junior.html#class4">&emsp;PreCalculas</a>
+                                    <a class="nav-link" href="junior.html#class5">&emsp;AP Statistics</a>
+                                    <a class="nav-link" href="junior.html#class6">&emsp;Wind Ensemble</a>
+                                    <a class="nav-link" href="junior.html#class7">&emsp;Digital Electronics</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link collapsed" data-toggle="collapse" data-target="#senior" href="#">
-                            Senior
-                        </a>
+                        <div class="button-group nav-link">
+                            <a href="senior.html">
+                                Senior
+                            </a>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="collapse" data-target="#senior"></button>
+                        </div>
                         <div class="collapse" id="senior">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link">&emsp;Class 1</a>
-                                    <a class="nav-link">&emsp;Class 2</a>
-                                    <a class="nav-link">&emsp;Class 3</a>
-                                    <a class="nav-link">&emsp;Class 4</a>
-                                    <a class="nav-link">&emsp;Class 5</a>
-                                    <a class="nav-link">&emsp;Class 6</a>
-                                    <a class="nav-link">&emsp;Class 7</a>
+                                    <a class="nav-link" href="senior.html#class1">&emsp;Intro to Programming</a>
+                                    <a class="nav-link" href="senior.html#class2">&emsp;AP European History</a>
+                                    <a class="nav-link" href="senior.html#class3">&emsp;AP Calculas</a>
+                                    <a class="nav-link" href="senior.html#class4">&emsp;AP English 4</a>
+                                    <a class="nav-link" href="senior.html#class5">&emsp;Wind Ensemble</a>
+                                    <a class="nav-link" href="senior.html#class6">&emsp;Student Services</a>
                                 </li>
                             </ul>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chargerWay.html">Joshua's Charger Way</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="otherLinks.html">Other Links</a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="container-fluid content">
-           <div class="card" id="cover"><div class="cover-half" id="left"></div><div class="cover-half" id="right"></div></div>
+            <div class="card col-12 cover" id="main">
+                <div class="cover-half" id="left"></div>
+                <img id="cover-photo" src="../img/BullittEastLogo.png" />
+                <div class="cover-half" id="right"></div>
+            </div>
+
+            <span class="content-padding col-12"></span>
+
+            <div class="card-group row">
+                <div class="card">
+                    <img class="card-img-top" src="../img/Bible.jpg" />
+                    <div class="card-body">
+                        <h2 class="card-title">Christian</h2>
+                        <p class="card-text">
+                            I, just as everyone else, am a wretched sinner deserving of nothing more than death and
+                            destruction. But, because the very God that I gleefuly rebelled against loved me more than I
+                            could ever imagine, I am saved. God sent his only Son to die our death on the cross so that we
+                            would not have to, and he raised him from the grave so that we may have life, if only we believe.
+                            <br />"For God so loved the world, that he gave his only Son, that whoever believes in him should
+                            not perish but have eternal life." - John 3:16 (ESV)
+                        </p>
+                        <a class="card-link" href="https://www.allaboutgod.com/become-a-christian.htm">Path to Salvation</a>
+                        <a class="card-link" href="https://fbcmw.org">First Baptist Church</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../img/PicOfMe.jpg" />
+                    <div class="card-body">
+                        <h2 class="card-title">Marching Band</h2>
+                        <p class="card-text">
+                            I have been in the Bullitt East Marching band since the 8th grade. This has instilled in me a
+                            strong work ethic, due to the long hours required of each and every member. During the
+                            last 2 years, I have served as section leader. This meant that it was my job to answer any
+                            questions the rest of my section may have, and to help keep the drama to a minimum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../img/CodeScreenShot1.jpg" />
+                    <div class="card-body">
+                        <h2 class="card-title">Programmer</h2>
+                        <p class="card-text">
+                            During my freshman year, I began to take an avid interest in programming. I purchased several books
+                            and began teaching myself Java and C++. And I absolutely loved it. Over the next several years,
+                            I continued to watch Youtube videos, read books, and to study any code-related item I could get my
+                            hands on. I helped to start the BE robotics team, and I began development of my own library for
+                            PROS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <span class="content-padding col-12"></span>
+
+            <div class="card-group row">
+                <div class="card">
+                    <img class="card-img-top" src="../img/CedarvilleLogo.png" />
+                    <div class="card-body">
+                        <h2 class="card-title">Cedarville University</h2>
+                        <p class="card-text">
+                            Cedarville is a baptist college an 1&frac12; hours north-west of Cincinnati. It is 1 of 20
+                            schools in the nation recognized as an 
+                            <a href="https://www.nsa.gov/resources/students-educators/centers-academic-excellence/cae-co-centers/">
+                                N.S.A. Center of Excellence in Cyber Operations
+                            </a>. 
+                            It requires every student to get a minor in Biblical Studies, and has a top-notch engineering
+                            program. This is where I plan on going to college.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../img/HTMLScreenshot.jpg" />
+                    <div class="card-body">
+                        <h2 class="card-title">About This Website</h2>
+                        <p class="card-text">
+                            This website was coded in <a href="https://www.w3.org/TR/html52/">HTML5</a>,
+                            <a href="https://www.w3.org/standards/techs/css#w3c_all">CSS3</a>, 
+                            <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">Bootstrap 4</a>,
+                            and <a href="https://www.ecma-international.org/ecma-262/6.0/">ECMAScript 6</a> using 
+                            <a href="https://visualstudio.microsoft.com/">Visual Studio 2017</a>
+                            for the Intro to Programming Class and my Senior Project.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../img/ProjectScreenshot.jpg" />
+                    <div class="card-body">
+                        <h2 class="card-title">How to Use This Website</h2>
+                        <p class="card-text">
+                            Under each section in the dropdown menu is a list of classes for that year in schedule order.
+                            When you select the class, it will take you to the section of the page that has that class
+                            content. If the link has 2 classes seperated by a slash, then those 2 classes were a semester each.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <p class="col-12"><a href="#top">&#x21E7; Back to Top &#x21E7;</a></p>
+            </div>
+
         </div>
     </div>
 

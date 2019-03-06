@@ -1,5 +1,5 @@
-﻿window.onload   = coverAnimation;
-window.onresize = coverAnimation;
+﻿window.addEventListener("load", coverAnimation);
+window.addEventListener("resize", coverAnimation);
 var animationID = 0;
 
 function coverAnimation()
